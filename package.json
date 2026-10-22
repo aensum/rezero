@@ -1,0 +1,12 @@
+{
+  "name": "rezero",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "wording": "node scripts/wording-diff.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}
